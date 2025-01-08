@@ -71,7 +71,7 @@ h1, p {
     text-overflow: ellipsis;
 }
 
-.image-container {
+.image-wrapper {
     overflow: hidden;
     position: absolute;
     bottom: 0;
@@ -111,7 +111,16 @@ a {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     align-items: stretch !important;
     height: 100%;
+
 }
+
+#cards:hover > .col-6.col-lg-3.flex-grow-1:not(:hover) {
+    opacity: 0.4 !important;
+    transition: opacity 0.4s ease;
+    
+  }
+
+
 
 .card-body {
     background-color: #E3CAA5;
@@ -150,6 +159,10 @@ button {
     color: #AD8B73;
 }
 
+button:hover {
+    background-color: rgba(227, 202, 165, 0.5);
+}
+
 #contact {
     margin-top: 2em;
 }
@@ -186,7 +199,7 @@ svg {
     #project-showcase {
         font-size: 3em !important;
     }
-    .image-container {
+    .image-wrapper {
         top: 0vh;
     }
 }
@@ -214,7 +227,7 @@ svg {
         line-height: 1.2em;
 
     }
-    .image-container {
+    .image-wrapper {
         /* overflow: hidden;
         position: static;
         width: 100%;
