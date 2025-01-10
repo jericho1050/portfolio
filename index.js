@@ -5,7 +5,7 @@ PROJECTS = [
     title: 'Calorie Counter',
   },
   {
-    url: 'https://hum.social',
+    url: 'http://hum.social',
     image: 'https://imgur.com/Yx8sEnE.jpg',
     title: 'Social Network',
   },
