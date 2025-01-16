@@ -1,65 +1,66 @@
 PROJECTS = [
   {
     url: 'https://calorie-contra-testing-baf1376cc140.herokuapp.com/home',
-    image: 'https://imgur.com/Eroy6fD.jpg',
+    image: 'https://i.imgur.com/Eroy6fD.jpg',
     title: 'Calorie Counter',
   },
   {
-    url: 'http://hum.social',
-    image: 'https://imgur.com/Yx8sEnE.jpg',
+    url: 'https://hum.social',
+    image: 'https://i.imgur.com/Yx8sEnE.jpg',
     title: 'Social Network',
   },
   {
     url: 'https://aestheitos.pro',
-    image: 'https://imgur.com/oQ8dGva.jpg',
+    image: 'https://i.imgur.com/oQ8dGva.jpg',
     title: 'Fitness Learning Platform',
   },
   {
     url: 'https://blue-island-0e5228800.5.azurestaticapps.net',
-    image: 'https://imgur.com/dQn0bx3.jpg',
+    image: 'https://i.imgur.com/dQn0bx3.jpg',
     title: 'Drone Landing Page',
   },
   {
     url: 'https://jericho1050.github.io/telephone-number-validator/',
-    image: 'https://imgur.com/WSBjap0.jpg',
+    image: 'https://i.imgur.com/WSBjap0.jpg',
     title: 'Telephone Number Validator',
   },
   {
     url: 'https://pokemon-search-smoky.vercel.app/',
-    image: 'https://imgur.com/4kUiDBx.jpg',
+    image: 'https://i.imgur.com/4kUiDBx.jpg',
     title: 'Pokemon Search',
   },
   {
     url: 'https://jericho1050.github.io/roman-numeral-converter/',
-    image: 'https://imgur.com/u2NBqT8.jpg',
+    image: 'https://i.imgur.com/u2NBqT8.jpg',
     title: 'Roman Numeral Converter',
   },
   {
     url: 'https://mycash-register-webapp.netlify.app',
-    image: 'https://imgur.com/9OVvGmz.jpg',
+    image: 'https://i.imgur.com/9OVvGmz.jpg',
     title: 'Cash Register App',
   },
   {
     url: 'https://jericho1050.github.io/final-project-ui-design/',
-    image: 'https://imgur.com/aAzvmnd.jpg',
+    image: 'https://i.imgur.com/aAzvmnd.jpg',
     title: 'Cabin Landing Page',
   },
   {
     url: 'https://github.com/jericho1050/bookshelf-dapp',
-    image: 'https://imgur.com/aBndr18.jpg',
+    image: 'https://i.imgur.com/aBndr18.jpg',
     title: 'BookShelf Dapp',
   },
   {
     url: 'https://jericho1050.github.io/teaplace/',
-    image: 'https://imgur.com/DEwVuSL.jpg',
+    image: 'https://i.imgur.com/DEwVuSL.jpg',
     title: 'TeaPlace Landing page',
   },
   {
     url: 'https://github.com/jericho1050/repitup',
-    image: 'https://imgur.com/tgC6MKN.jpg',
+    image: 'https://i.imgur.com/tgC6MKN.jpg',
     title: 'Backend Workout Logger',
   },
 ];
+// ...existing code...
 
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.querySelector('.container');
